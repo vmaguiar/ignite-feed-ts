@@ -1,0 +1,14 @@
+.headerContainer {
+  background: var(--gray-cards);
+
+  width: 100%;
+  height: 6.25rem;
+
+  display: flex;
+  justify-content: center;
+}
+
+.headerLogo {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}

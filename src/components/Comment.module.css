@@ -1,0 +1,108 @@
+.comment {
+  display: flex;
+  gap: 1rem;
+}
+
+.comment+.comment {
+  margin-top: 1.5rem;
+}
+/* Fim do .comment */
+
+
+
+
+.commentBox {
+  flex: 1;
+}
+
+.commentBox footer {
+  margin-top: 1rem;
+}
+
+.commentBox footer button {
+  background: transparent;
+  font-size: var(--font-small);
+  color: var(--gray-second-text);
+
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+
+  border-radius: 2px;
+  border: 0;
+  padding: 0;
+}
+
+.commentBox footer button:hover {
+  color: var(--green-light);
+}
+
+.commentBox footer button svg {
+  margin-right: 0.5rem;
+}
+
+.commentBox footer button span::before {
+  content: "\2022";
+  padding: 0 0.25rem;
+}
+/* Fim do .commentBox */
+
+
+
+
+.commentContent {
+  background: var(--gray-divider);
+
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.commentContent header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.commentContent header button {
+  background: transparent;
+  color: var(--gray-second-text);
+
+  line-height: 0;
+
+  cursor: pointer;
+
+  border: 0;
+  border-radius: 2px;
+
+  padding: 0;
+}
+
+.commentContent header button:hover {
+  color: var(--red-ignite);
+}
+
+.commentContent p {
+  margin-top: 1rem;
+}
+/* Fim do .commentContent */
+
+
+
+
+
+.authorAndTime {
+  display: flex;
+  flex-direction: column;
+}
+
+.authorAndTime strong {
+  font-size: var(--font-small);
+  color: var(--gray-text-titles);
+}
+
+.authorAndTime time {
+  font-size: var(--font-very-small);
+  color: var(--gray-second-text);
+}
+/* Fim do .authorAndTime */

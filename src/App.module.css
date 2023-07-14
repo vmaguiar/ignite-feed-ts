@@ -1,0 +1,36 @@
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  /* align-content: center; */
+  justify-content: flex-start;
+  align-items: center;
+
+  min-width: 17.2rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 16rem 1fr;
+  align-items: flex-start;
+  gap: 2rem;
+
+  max-width: 70rem;
+
+  margin: 2rem auto;
+  /* margin-top: 2rem;
+  margin-left: 10rem;
+  margin-right: 10rem; */
+}
+
+@media (max-width: 1200px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+
+}
